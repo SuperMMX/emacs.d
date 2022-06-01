@@ -65,9 +65,8 @@
 
     (require 'init-fullscreen)
     (require 'init-generic)
-;;    (require 'display-line-numbers)
+    (require 'init-line-number)
 ;;    (require 'init-highlight-parentheses)
-;;    (require 'init-line-number)
 ;;    (require 'init-indent)
 ;;    (require 'init-one-key)
 ;;    (require 'init-key)
