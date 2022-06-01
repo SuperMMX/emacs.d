@@ -71,7 +71,7 @@
                    (5 right)))))
 
 ;; 增强的括号高亮
-;; (add-hook 'find-file-hook 'highlight-parentheses-mode t)
+(add-hook 'find-file-hook 'highlight-parentheses-mode t)
 
 ;; 不要烦人的 redefine warning
 (setq ad-redefinition-action 'accept)
