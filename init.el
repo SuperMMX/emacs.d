@@ -48,8 +48,6 @@
  package-enable-at-startup nil
  package--init-file-ensured t)
 
-;; (add-to-list 'load-path (expand-file-name "config" user-emacs-directory))
-
 ;; 字体设置
 (require 'init-font)
 
@@ -65,9 +63,8 @@
     ;;(require 'benchmark-init)
     ;;(benchmark-init/activate)
 
-;;    (require 'init-fullscreen)
-;;
-;;    (require 'init-generic)
+    (require 'init-fullscreen)
+    (require 'init-generic)
 ;;    (require 'display-line-numbers)
 ;;    (require 'init-highlight-parentheses)
 ;;    (require 'init-line-number)
