@@ -123,10 +123,9 @@ url = https://github.com/jrblevin/markdown-mode
 	url = https://github.com/galeo/corfu-doc
 
 # new ones
-[submodule "smooth-scrolling"]
-	path = packages/smooth-scrolling
-	url = https://github.com/aspiers/smooth-scrolling.git
-
-[submodule "emacs-application-framework"]
+[submodule "packages/emacs-application-framework"]
 	path = packages/emacs-application-framework
 	url = https://github.com/emacs-eaf/emacs-application-framework
+[submodule "packages/smooth-scrolling"]
+	path = packages/smooth-scrolling
+	url = https://github.com/aspiers/smooth-scrolling.git
