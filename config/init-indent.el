@@ -4,7 +4,7 @@
 (setq c-basic-offset 4)
 
 ;; js
-(setq javascript-indent-level n)
+(setq javascript-indent-level 2)
 (setq js-indent-level 2)
 (setq js2-basic-offset 2)
 
@@ -59,5 +59,3 @@
 ;;                     )))
 
 (provide 'init-indent)
-
-;;; init-indent.el ends here

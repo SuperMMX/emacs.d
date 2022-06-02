@@ -58,6 +58,8 @@
       ;; 清空避免加载远程文件的时候分析文件。
       (file-name-handler-alist nil))
 
+  (require 'init-indent)
+
   (with-temp-message ""              ;抹掉插件启动的输出
     ;;(require 'benchmark-init-modes)
     ;;(require 'benchmark-init)
@@ -67,7 +69,6 @@
     (require 'init-generic)
     (require 'init-line-number)
     (require 'init-highlight-parentheses)
-    (require 'init-indent)
 ;;    (require 'init-one-key)
 ;;    (require 'init-key)
 ;;    (require 'init-vi-navigate)
@@ -77,9 +78,11 @@
     (run-with-idle-timer
      1 nil
      #'(lambda ()
-         ;;(require 'init-smooth-scrolling)
+         (message "inside timer")
+         (require 'init-smooth-scrolling)
          ;;(require 'init-idle)
 
+         (require 'init-eaf)
          ;; Restore session at last.
          ;;(require 'init-session)
          ;;(emacs-session-restore)
