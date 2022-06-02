@@ -84,10 +84,10 @@
       scroll-conservatively 10000)
 
 ;; 不显示 *scratch*
-(defun remove-scratch-buffer ()
-  (if (get-buffer "*scratch*")
-      (kill-buffer "*scratch*")))
-(add-hook 'after-change-major-mode-hook 'remove-scratch-buffer)
+;;(defun remove-scratch-buffer ()
+;;  (if (get-buffer "*scratch*")
+;;      (kill-buffer "*scratch*")))
+;;(add-hook 'after-change-major-mode-hook 'remove-scratch-buffer)
 
 ;; Don't ask me when close emacs with process is running
 ;;(defadvice save-buffers-kill-emacs (around no-query-kill-emacs activate)
