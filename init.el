@@ -55,6 +55,9 @@
 ;; 字体设置
 (require 'init-font)
 
+;; Meow
+(require 'init-meow)
+
 (let (
       ;; 加载的时候临时增大`gc-cons-threshold'以加速启动速度。
       (gc-cons-threshold most-positive-fixnum)
