@@ -49,6 +49,9 @@
 ;; 包管理
 (require 'init-package-management)
 
+;; 双击
+(require 'init-key-chord)
+
 ;; 主题
 (require 'init-theme)
 

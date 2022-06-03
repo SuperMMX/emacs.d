@@ -89,4 +89,6 @@
 (meow-setup)
 (meow-global-mode 1)
 
+(key-chord-define-global "fj" 'meow-insert-exit)
+
 (provide 'init-meow)
