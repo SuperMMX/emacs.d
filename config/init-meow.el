@@ -10,6 +10,10 @@
    ;; SPC j/k will run the original command in MOTION state.
    '("j" . "H-j")
    '("k" . "H-k")
+   ;; 常用
+   '(";" . kill-this-buffer)
+   '("b" . switch-to-buffer)
+   '("f" . find-file)
    ;; Use SPC (0-9) for digit arguments.
    '("1" . meow-digit-argument)
    '("2" . meow-digit-argument)
@@ -89,6 +93,10 @@
 (meow-setup)
 (meow-global-mode 1)
 
+;; 延長提示
+(setq meow-expand-hint-remove-delay 3)
+
+;; fj 双击退出 INSERT
 (key-chord-define-global "fj" 'meow-insert-exit)
 
 (provide 'init-meow)
