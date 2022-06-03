@@ -15,7 +15,7 @@
 (defun random-theme ()
   "Choose random theme"
   (interactive)
-  (load-theme (random-list-element mmx-themes))
+  (load-theme (random-list-element mmx-themes) t)
 ;;  (cnfonts-set-font-with-saved-step)
   )
 
