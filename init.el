@@ -49,6 +49,9 @@
 ;; 包管理
 (require 'init-package-management)
 
+;; 主题
+(require 'init-theme)
+
 ;; 字体设置
 (require 'init-font)
 
