@@ -44,9 +44,10 @@
  frame-inhibit-implied-resize t
  ;; 默认用最简单的模式
  initial-major-mode 'fundamental-mode
- ;; 不要自动启用package
- package-enable-at-startup nil
- package--init-file-ensured t)
+)
+
+;; 包管理
+(require 'init-package-management)
 
 ;; 字体设置
 (require 'init-font)
@@ -87,6 +88,7 @@
          ;;(require 'init-session)
          ;;(emacs-session-restore)
 
+         (require 'init-asciidoc)
          ))))
 
 (provide 'init)

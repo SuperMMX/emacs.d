@@ -129,3 +129,9 @@ url = https://github.com/jrblevin/markdown-mode
 [submodule "packages/smooth-scrolling"]
 	path = packages/smooth-scrolling
 	url = https://github.com/aspiers/smooth-scrolling.git
+[submodule "packages/straight.el"]
+	path = packages/straight.el
+	url = https://github.com/radian-software/straight.el.git
+[submodule "packages/use-package"]
+	path = packages/use-package
+	url = https://github.com/jwiegley/use-package.git
