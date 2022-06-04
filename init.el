@@ -62,7 +62,8 @@
 
   (require 'init-indent)
 
-  (with-temp-message ""              ;抹掉插件启动的输出
+  ;; 抹掉插件启动的输出
+  (with-temp-message ""
     ;;(require 'benchmark-init-modes)
     ;;(require 'benchmark-init)
     ;;(benchmark-init/activate)
@@ -83,12 +84,15 @@
          (require 'init-smooth-scrolling)
          ;;(require 'init-idle)
 
+         (require 'init-awesome-pair)
          (require 'init-eaf)
          (require 'init-asciidoc)
 
          ;; Restore session at last.
          ;;(require 'init-session)
          ;;(emacs-session-restore)
+
+         ;; testing
 
          ))))
 
