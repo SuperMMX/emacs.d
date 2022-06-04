@@ -11,6 +11,7 @@
    '("j" . "H-j")
    '("k" . "H-k")
    ;; 常用
+   '("TAB" . meow-last-buffer)
    '(";" . kill-this-buffer)
    '("b" . ivy-switch-buffer)
    '("f" . counsel-find-file)
