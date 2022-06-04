@@ -10,10 +10,6 @@ url = https://github.com/fxbois/web-mode
 path = packages/vi-navigate
 url = https://github.com/manateelazycat/vi-navigate.git
 
-[submodule "awesome-pair"]
-path = packages/awesome-pair
-url = https://github.com/manateelazycat/awesome-pair.git
-
 [submodule "color-rg"]
 path = packages/color-rg
 url = https://github.com/manateelazycat/color-rg.git
