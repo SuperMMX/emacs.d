@@ -3,13 +3,13 @@
 (defun meow-setup ()
   (setq meow-cheatsheet-layout meow-cheatsheet-layout-qwerty)
   (meow-motion-overwrite-define-key
-   '("j" . meow-next)
-   '("k" . meow-prev)
+;;   '("j" . meow-next)
+;;   '("k" . meow-prev)
    '("<escape>" . ignore))
   (meow-leader-define-key
    ;; SPC j/k will run the original command in MOTION state.
-   '("j" . "H-j")
-   '("k" . "H-k")
+;;   '("j" . "H-j")
+;;   '("k" . "H-k")
    ;; 常用
    '("TAB" . meow-last-buffer)
    '(";" . kill-this-buffer)
