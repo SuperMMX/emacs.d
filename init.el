@@ -61,6 +61,9 @@
 ;; Meow
 (require 'init-meow)
 
+;; 补全
+(require 'init-completion)
+
 (let (
       ;; 加载的时候临时增大`gc-cons-threshold'以加速启动速度。
       (gc-cons-threshold most-positive-fixnum)
@@ -88,16 +91,16 @@
     (run-with-idle-timer
      1 nil
      #'(lambda ()
-         (message "inside timer")
          (require 'init-smooth-scrolling)
          ;;(require 'init-idle)
 
          (require 'init-eaf)
+         (require 'init-asciidoc)
+
          ;; Restore session at last.
          ;;(require 'init-session)
          ;;(emacs-session-restore)
 
-         (require 'init-asciidoc)
          ))))
 
 (provide 'init)

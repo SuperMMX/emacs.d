@@ -12,8 +12,8 @@
    '("k" . "H-k")
    ;; 常用
    '(";" . kill-this-buffer)
-   '("b" . switch-to-buffer)
-   '("f" . find-file)
+   '("b" . ivy-switch-buffer)
+   '("f" . counsel-find-file)
    ;; Use SPC (0-9) for digit arguments.
    '("1" . meow-digit-argument)
    '("2" . meow-digit-argument)
