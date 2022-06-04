@@ -138,3 +138,6 @@ url = https://github.com/jrblevin/markdown-mode
 [submodule "packages/awesome-pair"]
 	path = packages/awesome-pair
 	url = https://github.com/manateelazycat/awesome-pair.git
+[submodule "packages/awesome-tray"]
+	path = packages/awesome-tray
+	url = https://github.com/manateelazycat/awesome-tray.git

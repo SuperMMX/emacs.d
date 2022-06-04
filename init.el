@@ -34,24 +34,14 @@
 
 ;; 缺省
 (require 'init-defaults)
-
 ;; 包管理
 (require 'init-package-management)
-
 ;; 双击
 (require 'init-key-chord)
-
 ;; 主题
 (require 'init-theme)
-
 ;; 字体设置
 (require 'init-font)
-
-;; Meow
-(require 'init-meow)
-
-;; 补全
-(require 'init-completion)
 
 (let (
       ;; 加载的时候临时增大`gc-cons-threshold'以加速启动速度。
@@ -60,6 +50,13 @@
       ;; 清空避免加载远程文件的时候分析文件。
       (file-name-handler-alist nil))
 
+  ;; Meow
+  (require 'init-meow)
+  ;; 状态栏
+  (require 'init-awesome-tray)
+  ;; 补全
+  (require 'init-completion)
+  ;; 缩进
   (require 'init-indent)
 
   ;; 抹掉插件启动的输出
