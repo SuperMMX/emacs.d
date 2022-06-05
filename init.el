@@ -92,6 +92,8 @@
          (require 'init-project)
          ;; web-mode
          (require 'init-web-mode)
+         ;; Magit
+         (require 'init-magit)
 
          ;; Restore session at last.
          ;;(require 'init-session)
