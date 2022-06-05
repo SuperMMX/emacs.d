@@ -79,6 +79,8 @@
     (run-with-idle-timer
      1 nil
      #'(lambda ()
+         ;; Posframe
+         (require 'init-posframe)
          ;; 上下滚动留行
          (require 'init-smooth-scrolling)
          ;;(require 'init-idle)
@@ -93,8 +95,15 @@
          (require 'init-project)
          ;; web-mode
          (require 'init-web-mode)
+         ;; Markdown
+         (require 'init-markdown)
+
          ;; Magit
          (require 'init-magit)
+         ;; YAS
+         (require 'init-yas)
+         ;; Language Server
+         (require 'init-lsp)
 
          ;; Restore session at last.
          ;;(require 'init-session)

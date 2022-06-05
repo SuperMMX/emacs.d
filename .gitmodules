@@ -137,3 +137,6 @@ url = https://github.com/jrblevin/markdown-mode
 [submodule "packages/awesome-tray"]
 	path = packages/awesome-tray
 	url = https://github.com/manateelazycat/awesome-tray.git
+[submodule "packages/lsp-bridge"]
+	path = packages/lsp-bridge
+	url = https://github.com/manateelazycat/lsp-bridge.git
