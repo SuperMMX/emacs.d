@@ -90,6 +90,8 @@
          (require 'init-asciidoc)
          ;; 项目
          (require 'init-project)
+         ;; web-mode
+         (require 'init-web-mode)
 
          ;; Restore session at last.
          ;;(require 'init-session)
