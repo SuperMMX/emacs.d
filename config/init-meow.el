@@ -2,6 +2,7 @@
 
 (defun meow-setup ()
   (setq meow-cheatsheet-layout meow-cheatsheet-layout-qwerty)
+
   (meow-motion-overwrite-define-key
 ;;   '("j" . meow-next)
 ;;   '("k" . meow-prev)
@@ -10,11 +11,40 @@
    ;; SPC j/k will run the original command in MOTION state.
 ;;   '("j" . "H-j")
 ;;   '("k" . "H-k")
+
    ;; 常用
+   ;;`("a" . ,help-map)
+   ;;(cons "a" help-map)
+
+   ;; == Buffer
    '("TAB" . meow-last-buffer)
-   '(";" . kill-this-buffer)
-   '("b" . ivy-switch-buffer)
-   '("f" . counsel-find-file)
+   ;; switch buffer
+   '("b b" . "C-x b")
+   '("b d" . kill-this-buffer)
+
+   ;; == Magit
+   '("G s" . magit-status)
+
+   ;; == Jump
+   ;; imenu
+   '("j i" . "M-g i")
+
+   ;; == File
+   ;; find file
+   '("f f" . "C-x C-f")
+   ;; save file
+   '("f s" . "C-x C-s")
+
+   ;; == Project
+   '("p b" . counsel-projectile-switch-to-buffer)
+   '("p f" . counsel-projectile-find-file)
+   '("p p" . counsel-projectile-switch-project)
+
+   ;; == Window
+   '("w b" . split-window-below)
+   '("w d" . delete-other-windows)
+   '("w o" . other-window)
+
    ;; Use SPC (0-9) for digit arguments.
    '("1" . meow-digit-argument)
    '("2" . meow-digit-argument)
@@ -95,7 +125,7 @@
 (meow-global-mode 1)
 
 ;; 延長提示
-(setq meow-expand-hint-remove-delay 3)
+(setq meow-expand-hint-remove-delay 2)
 
 ;; fj 双击退出 INSERT
 (key-chord-define-global "fj" 'meow-insert-exit)
