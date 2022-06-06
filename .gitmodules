@@ -140,3 +140,6 @@ url = https://github.com/jrblevin/markdown-mode
 [submodule "packages/lsp-bridge"]
 	path = packages/lsp-bridge
 	url = https://github.com/manateelazycat/lsp-bridge.git
+[submodule "packages/one-key"]
+	path = packages/one-key
+	url = https://github.com/manateelazycat/one-key
