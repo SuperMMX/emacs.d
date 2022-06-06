@@ -22,9 +22,6 @@
    '("b b" . "C-x b")
    '("b d" . kill-this-buffer)
 
-   ;; == Magit
-   '("G s" . magit-status)
-
    ;; == Jump
    ;; imenu
    '("j i" . "M-g i")
@@ -39,6 +36,9 @@
    '("p b" . counsel-projectile-switch-to-buffer)
    '("p f" . counsel-projectile-find-file)
    '("p p" . counsel-projectile-switch-project)
+
+   ;; == Tools
+   '(", g" . magit-status)
 
    ;; == Window
    '("w b" . split-window-below)
