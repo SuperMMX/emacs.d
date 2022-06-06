@@ -1,11 +1,3 @@
-[submodule "typescript"]
-path = packages/typescript
-url = https://github.com/ananthakumaran/typescript.el.git
-
-[submodule "web-mode"]
-path = packages/web-mode
-url = https://github.com/fxbois/web-mode
-
 [submodule "vi-navigate"]
 path = packages/vi-navigate
 url = https://github.com/manateelazycat/vi-navigate.git
@@ -50,10 +42,6 @@ url = https://github.com/tumashu/posframe.git
 path = packages/fuz
 url = https://github.com/cireu/fuz.el.git
 
-[submodule "projectile"]
-path = packages/projectile
-url = https://github.com/bbatsov/projectile.git
-
 [submodule "benchmark-init"]
 path = packages/benchmark-init
 url = https://github.com/dholm/benchmark-init-el
@@ -65,10 +53,6 @@ url = https://github.com/DogLooksGood/emacs-rime.git
 [submodule "dash"]
 path = packages/dash
 url = https://github.com/magnars/dash.el.git
-
-[submodule "one-key"]
-path = packages/one-key
-url = https://github.com/manateelazycat/one-key
 
 [submodule "tree-sitter"]
 path = packages/tree-sitter
@@ -89,34 +73,6 @@ url = https://github.com/manateelazycat/recursive-search-references
 [submodule "f"]
 path = packages/f
 url = https://github.com/rejeep/f.el.git
-
-[submodule "lspbridge"]
-path = packages/lspbridge
-url = https://github.com/manateelazycat/lsp-bridge
-
-[submodule "corfu"]
-path = packages/corfu
-url = https://github.com/minad/corfu
-
-[submodule "cape"]
-path = packages/cape
-url = https://github.com/minad/cape
-
-[submodule "orderless"]
-path = packages/orderless
-url = https://github.com/oantolin/orderless
-
-[submodule "corfu-english-helper"]
-path = packages/corfu-english-helper
-url = https://github.com/manateelazycat/corfu-english-helper
-
-[submodule "markdown-mode"]
-path = packages/markdown-mode
-url = https://github.com/jrblevin/markdown-mode
-
-[submodule "corfu-doc"]
-	path = packages/corfu-doc
-	url = https://github.com/galeo/corfu-doc
 
 # new ones
 [submodule "packages/emacs-application-framework"]
