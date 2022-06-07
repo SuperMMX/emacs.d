@@ -3,8 +3,18 @@
 (defvar mmx-themes '(
                      doom-city-lights
                      doom-dark+
+                     doom-gruvbox
                      doom-Iosvkem
+                     doom-material
+                     doom-molokai
+                     doom-oceanic-next
                      doom-one
+                     doom-palenight
+                     doom-peacock
+                     doom-snazzy
+                     doom-sourcerer
+                     doom-spacegrey
+                     doom-tomorrow-night
                      doom-vibrant
                      ))
 

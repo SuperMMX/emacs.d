@@ -39,6 +39,7 @@
 
    ;; == Tools
    '(", g" . magit-status)
+   '(", t" . random-theme)
 
    ;; == Window
    '("w b" . split-window-below)
