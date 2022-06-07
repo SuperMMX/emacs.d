@@ -4,7 +4,7 @@
 (menu-bar-mode -1);
 ;; 禁用滚动条
 (scroll-bar-mode -1)
-;; 长行移动
+;; 可视行移动
 (global-visual-line-mode)
 
 (setq

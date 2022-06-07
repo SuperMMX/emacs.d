@@ -87,11 +87,9 @@
          ;; 上下滚动留行
          (require 'init-smooth-scrolling)
          ;;(require 'init-idle)
-
          ;; 配对
          (require 'init-awesome-pair)
-         ;; EAF
-         (require 'init-eaf)
+
          ;; AsciiDoc
          (require 'init-asciidoc)
          ;; 项目
@@ -100,11 +98,15 @@
          (require 'init-web-mode)
          ;; Markdown
          (require 'init-markdown)
-
+         ;; TypeScript
+         (require 'init-typescript)
          ;; Magit
          (require 'init-magit)
+
          ;; YAS
          (require 'init-yas)
+         ;; EAF
+         (require 'init-eaf)
          ;; Language Server
          (require 'init-lsp)
 
