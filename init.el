@@ -105,6 +105,8 @@
          ;; Magit
          (require 'init-magit)
 
+         ;; Tree Sitter
+         (require 'init-tree-sitter)
          ;; YAS
          (require 'init-yas)
          ;; EAF
