@@ -12,6 +12,7 @@
                    (not (file-directory-p (concat dir subdir)))
                    ;; 目录匹配下面规则的都移除
                    (member subdir '("." ".." ;Linux当前目录和父目录
+                                    "elpa" ; Package 会自动将其下目录加入 load-path
                                     "dist" "node_modules" "__pycache__" "build" "target" ;语言相关的模块目录
                                     "RCS" "CVS" "rcs" "cvs" ".git" ".github")))) ;版本控制目录
               (directory-files dir)))
@@ -30,7 +31,11 @@
         ;; 继续递归搜索子目录
         (add-subdirs-to-load-path subdir-path)))))
 
-(add-subdirs-to-load-path ".")
+;; init.el 所在目录当作 .emacs.d
+(setq user-emacs-directory (file-name-directory load-file-name))
+
+;; 递归把所有目录加入 load-path
+(add-subdirs-to-load-path user-emacs-directory)
 
 ;; 缺省
 (require 'init-defaults)

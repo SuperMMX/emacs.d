@@ -5,8 +5,11 @@
 ;; ==== Package ====
 
 (require 'package)
+
 (add-to-list 'package-archives '("melpa" . "https://melpa.org/packages/"))
-(setq package-user-dir "~/.elpa-test")
+
+;; 包的保存位置
+(setq package-user-dir (locate-user-emacs-file "elpa"))
 
 (require 'use-package)
 
