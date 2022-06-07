@@ -72,6 +72,8 @@
     (run-with-idle-timer
      1 nil
      #'(lambda ()
+         ;; 自动保存
+         (require 'init-auto-save)
          ;; 缩进
          (require 'init-indent)
          ;; 行号

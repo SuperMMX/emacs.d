@@ -6,10 +6,6 @@ url = https://github.com/manateelazycat/vi-navigate.git
 path = packages/color-rg
 url = https://github.com/manateelazycat/color-rg.git
 
-[submodule "auto-save"]
-path = packages/auto-save
-url = https://github.com/manateelazycat/auto-save.git
-
 [submodule "lazy-load"]
 path = packages/lazy-load
 url = https://github.com/manateelazycat/lazy-load.git
@@ -33,10 +29,6 @@ url = https://github.com/Malabarba/names.git
 [submodule "snails"]
 path = packages/snails
 url = https://github.com/manateelazycat/snails.git
-
-[submodule "posframe"]
-path = packages/posframe
-url = https://github.com/tumashu/posframe.git
 
 [submodule "fuz"]
 path = packages/fuz
@@ -99,3 +91,6 @@ url = https://github.com/rejeep/f.el.git
 [submodule "packages/one-key"]
 	path = packages/one-key
 	url = https://github.com/manateelazycat/one-key
+[submodule "packages/auto-save"]
+	path = packages/auto-save
+	url = https://github.com/manateelazycat/auto-save.git
