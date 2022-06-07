@@ -121,8 +121,8 @@
          (require 'init-lsp)
 
          ;; Restore session at last.
-         ;;(require 'init-session)
-         ;;(emacs-session-restore)
+         (require 'init-session)
+         (emacs-session-restore)
 
          ;; testing
 
