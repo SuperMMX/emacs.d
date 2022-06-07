@@ -36,12 +36,12 @@
 (require 'init-defaults)
 ;; 包管理
 (require 'init-package-management)
-;; 双击
-(require 'init-key-chord)
 ;; 主题
 (require 'init-theme)
 ;; 字体设置
 (require 'init-font)
+;; 全屏
+(require 'init-fullscreen)
 
 (let (
       ;; 加载的时候临时增大`gc-cons-threshold'以加速启动速度。
@@ -50,27 +50,20 @@
       ;; 清空避免加载远程文件的时候分析文件。
       (file-name-handler-alist nil))
 
-  ;; Meow
-  (require 'init-meow)
-  ;; 状态栏
-  (require 'init-awesome-tray)
-  ;; 补全
-  (require 'init-completion)
-  ;; 缩进
-  (require 'init-indent)
-
   ;; 抹掉插件启动的输出
   (with-temp-message ""
     ;;(require 'benchmark-init-modes)
     ;;(require 'benchmark-init)
     ;;(benchmark-init/activate)
 
-    (require 'init-fullscreen)
-    (require 'init-generic)
-    (require 'init-line-number)
-    (require 'init-highlight-parentheses)
-    (require 'init-mode)
-;;    (require 'init-one-key)
+    ;; 双击
+    (require 'init-key-chord)
+    ;; Meow
+    (require 'init-meow)
+    ;; 状态栏
+    (require 'init-awesome-tray)
+    ;; 一键设置
+    (require 'init-one-key)
 ;;    (require 'init-key)
 ;;    (require 'init-vi-navigate)
 ;;    (require 'init-isearch-mb)
@@ -79,6 +72,16 @@
     (run-with-idle-timer
      1 nil
      #'(lambda ()
+         ;; 缩进
+         (require 'init-indent)
+         ;; 行号
+         (require 'init-line-number)
+         ;; 补全
+         (require 'init-completion)
+         ;; 括号高亮
+         (require 'init-highlight-parentheses)
+         ;; 模式关联
+         (require 'init-mode)
          ;; Posframe
          (require 'init-posframe)
          ;; 上下滚动留行
@@ -93,7 +96,7 @@
          (require 'init-asciidoc)
          ;; 项目
          (require 'init-project)
-         ;; web-mode
+         ;; Web Mode
          (require 'init-web-mode)
          ;; Markdown
          (require 'init-markdown)
