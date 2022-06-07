@@ -43,6 +43,9 @@
 ;; 全屏
 (require 'init-fullscreen)
 
+;; 状态栏
+(require 'init-awesome-tray)
+
 (let (
       ;; 加载的时候临时增大`gc-cons-threshold'以加速启动速度。
       (gc-cons-threshold most-positive-fixnum)
@@ -60,8 +63,6 @@
     (require 'init-key-chord)
     ;; Meow
     (require 'init-meow)
-    ;; 状态栏
-    (require 'init-awesome-tray)
     ;; 一键设置
     (require 'init-one-key)
 ;;    (require 'init-key)
