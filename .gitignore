@@ -1,2 +1,7 @@
 *.elc
 *.pyc
+/eaf/
+/elpa/
+/projectile-bookmarks.eld
+/snippets/
+/transient/
