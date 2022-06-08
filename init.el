@@ -96,7 +96,8 @@
          (require 'init-smooth-scrolling)
          ;;(require 'init-idle)
          ;; 配对
-         (require 'init-awesome-pair)
+         ;;(require 'init-awesome-pair)
+         (require 'init-grammatical-edit)
 
          ;; AsciiDoc
          (require 'init-asciidoc)

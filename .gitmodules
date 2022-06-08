@@ -46,17 +46,9 @@ url = https://github.com/DogLooksGood/emacs-rime.git
 path = packages/dash
 url = https://github.com/magnars/dash.el.git
 
-[submodule "tree-sitter"]
-path = packages/tree-sitter
-url = https://github.com/ubolonton/emacs-tree-sitter
-
 [submodule "popweb"]
 path = packages/popweb
 url = https://github.com/manateelazycat/popweb.git
-
-[submodule "grammatical-edit"]
-path = packages/grammatical-edit
-url = https://github.com/manateelazycat/grammatical-edit
 
 [submodule "recursive-search-references"]
 path = packages/recursive-search-references
@@ -94,3 +86,9 @@ url = https://github.com/rejeep/f.el.git
 [submodule "packages/auto-save"]
 	path = packages/auto-save
 	url = https://github.com/manateelazycat/auto-save.git
+[submodule "packages/grammatical-edit"]
+	path = packages/grammatical-edit
+	url = https://github.com/manateelazycat/grammatical-edit
+[submodule "packages/lazy-load"]
+	path = packages/lazy-load
+	url = https://github.com/manateelazycat/lazy-load.git
