@@ -37,6 +37,8 @@
 ;; 递归把所有目录加入 load-path
 (add-subdirs-to-load-path user-emacs-directory)
 
+;; 编码
+(require 'init-encoding)
 ;; 缺省
 (require 'init-defaults)
 ;; 包管理
