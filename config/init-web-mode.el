@@ -9,27 +9,27 @@
 
 (use-package js)
 
-;;(require 'grammatical-edit)
-;;(require 'instant-rename-tag)
-;;(require 'highlight-matching-tag)
+(require 'grammatical-edit)
+(require 'instant-rename-tag)
+(require 'highlight-matching-tag)
 
-;;(highlight-matching-tag 1)
+(highlight-matching-tag 1)
 
 ;; Emmit.
 
-;; We-mode.
-;;(lazy-load-set-keys grammatical-edit-key-alist web-mode-map)
-;;(lazy-load-local-keys
-;; '(
+;; Web-mode.
+(lazy-load-set-keys grammatical-edit-key-alist web-mode-map)
+(lazy-load-local-keys
+ '(
 ;;   ("M-s-SPC" . web-mode-element-content-select)
 ;;   ("C-s-l" . web-mode-element-clone)
 ;;   ("C-M-SPC" . web-mode-mark-and-expand)
 ;;   ("C-:" . web-mode-comment-or-uncomment)
 ;;   ("C-M-SPC" . mark-sexp)
-;;   ("M-R" . instant-rename-tag)
-;;   )
-;; web-mode-map
-;; "web-mode-extension")
+   ("M-R" . instant-rename-tag)
+   )
+ web-mode-map
+ "web-mode-extension")
 
 (add-to-list 'auto-mode-alist '("\\.vue\\'" . web-mode))
 

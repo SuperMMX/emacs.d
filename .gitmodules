@@ -1,63 +1,63 @@
-[submodule "vi-navigate"]
-path = packages/vi-navigate
-url = https://github.com/manateelazycat/vi-navigate.git
-
-[submodule "color-rg"]
-path = packages/color-rg
-url = https://github.com/manateelazycat/color-rg.git
-
-[submodule "lazy-load"]
-path = packages/lazy-load
-url = https://github.com/manateelazycat/lazy-load.git
-
-[submodule "transient"]
-path = packages/transient
-url = https://github.com/magit/transient.git
-
-[submodule "symbol-overlay"]
-path = packages/symbol-overlay
-url = https://github.com/wolray/symbol-overlay.git
-
-[submodule "smart-align"]
-path = packages/smart-align
-url = https://github.com/manateelazycat/smart-align.git
-
-[submodule "names"]
-path = packages/names
-url = https://github.com/Malabarba/names.git
-
-[submodule "snails"]
-path = packages/snails
-url = https://github.com/manateelazycat/snails.git
-
-[submodule "fuz"]
-path = packages/fuz
-url = https://github.com/cireu/fuz.el.git
-
-[submodule "benchmark-init"]
-path = packages/benchmark-init
-url = https://github.com/dholm/benchmark-init-el
-
-[submodule "emacs-rime"]
-path = packages/emacs-rime
-url = https://github.com/DogLooksGood/emacs-rime.git
-
-[submodule "dash"]
-path = packages/dash
-url = https://github.com/magnars/dash.el.git
-
-[submodule "popweb"]
-path = packages/popweb
-url = https://github.com/manateelazycat/popweb.git
-
-[submodule "recursive-search-references"]
-path = packages/recursive-search-references
-url = https://github.com/manateelazycat/recursive-search-references
-
-[submodule "f"]
-path = packages/f
-url = https://github.com/rejeep/f.el.git
-
+#[submodule "vi-navigate"]
+#path = packages/vi-navigate
+#url = https://github.com/manateelazycat/vi-navigate.git
+#
+#[submodule "color-rg"]
+#path = packages/color-rg
+#url = https://github.com/manateelazycat/color-rg.git
+#
+#[submodule "lazy-load"]
+#path = packages/lazy-load
+#url = https://github.com/manateelazycat/lazy-load.git
+#
+#[submodule "transient"]
+#path = packages/transient
+#url = https://github.com/magit/transient.git
+#
+#[submodule "symbol-overlay"]
+#path = packages/symbol-overlay
+#url = https://github.com/wolray/symbol-overlay.git
+#
+#[submodule "smart-align"]
+#path = packages/smart-align
+#url = https://github.com/manateelazycat/smart-align.git
+#
+#[submodule "names"]
+#path = packages/names
+#url = https://github.com/Malabarba/names.git
+#
+#[submodule "snails"]
+#path = packages/snails
+#url = https://github.com/manateelazycat/snails.git
+#
+#[submodule "fuz"]
+#path = packages/fuz
+#url = https://github.com/cireu/fuz.el.git
+#
+#[submodule "benchmark-init"]
+#path = packages/benchmark-init
+#url = https://github.com/dholm/benchmark-init-el
+#
+#[submodule "emacs-rime"]
+#path = packages/emacs-rime
+#url = https://github.com/DogLooksGood/emacs-rime.git
+#
+#[submodule "dash"]
+#path = packages/dash
+#url = https://github.com/magnars/dash.el.git
+#
+#[submodule "popweb"]
+#path = packages/popweb
+#url = https://github.com/manateelazycat/popweb.git
+#
+#[submodule "recursive-search-references"]
+#path = packages/recursive-search-references
+#url = https://github.com/manateelazycat/recursive-search-references
+#
+#[submodule "f"]
+#path = packages/f
+#url = https://github.com/rejeep/f.el.git
+#
 # new ones
 [submodule "packages/emacs-application-framework"]
 	path = packages/emacs-application-framework
@@ -92,3 +92,9 @@ url = https://github.com/rejeep/f.el.git
 [submodule "packages/lazy-load"]
 	path = packages/lazy-load
 	url = https://github.com/manateelazycat/lazy-load.git
+[submodule "packages/highlight-matching-tag"]
+	path = packages/highlight-matching-tag
+	url = https://github.com/manateelazycat/highlight-matching-tag
+[submodule "packages/instant-rename-tag"]
+	path = packages/instant-rename-tag
+	url = https://github.com/manateelazycat/instant-rename-tag.git
