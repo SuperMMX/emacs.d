@@ -98,4 +98,6 @@
 ;;   )
 ;; t)
 
+(setq eaf-git-layout "V")
+
 (provide 'init-eaf)
