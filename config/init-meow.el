@@ -38,7 +38,8 @@
    '("p p" . counsel-projectile-switch-project)
 
    ;; == Tools
-   '(", g" . magit-status)
+   '(", g" . eaf-open-git)
+   '(", m" . magit-status)
    '(", t" . random-theme)
 
    ;; == Window
