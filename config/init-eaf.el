@@ -100,4 +100,11 @@
 
 (setq eaf-git-layout "V")
 
+(setq eaf-git-status-initial-state "expanded")
+(setq eaf-git-untracked-initial-state "collapsed")
+(setq eaf-git-unstaged-initial-state "expanded")
+(setq eaf-git-staged-initial-state "expanded")
+(setq eaf-git-stash-initial-state "collapsed")
+(setq eaf-git-unpushed-initial-state "collapsed")
+
 (provide 'init-eaf)
