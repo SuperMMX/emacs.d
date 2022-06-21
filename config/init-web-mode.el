@@ -9,6 +9,7 @@
 
 (use-package js)
 
+(require 'lazy-load)
 (require 'grammatical-edit)
 (require 'instant-rename-tag)
 (require 'highlight-matching-tag)

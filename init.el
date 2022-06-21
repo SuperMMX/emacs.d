@@ -88,8 +88,6 @@
          (require 'init-line-number)
          ;; 补全
          (require 'init-completion)
-         ;; 括号高亮
-         (require 'init-highlight-parentheses)
          ;; 模式关联
          (require 'init-mode)
          ;; Posframe
@@ -97,25 +95,25 @@
          ;; 上下滚动留行
          (require 'init-smooth-scrolling)
          ;;(require 'init-idle)
-         ;; 配对
-         ;;(require 'init-awesome-pair)
-         (require 'init-grammatical-edit)
-
          ;; AsciiDoc
          (require 'init-asciidoc)
          ;; 项目
          (require 'init-project)
-         ;; Web Mode
-         (require 'init-web-mode)
          ;; Markdown
          (require 'init-markdown)
          ;; TypeScript
          (require 'init-typescript)
          ;; Magit
          (require 'init-magit)
-
          ;; Tree Sitter
          (require 'init-tree-sitter)
+         ;; 括号高亮
+         (require 'init-highlight-parentheses)
+         ;; 配对
+         ;;(require 'init-awesome-pair)
+         (require 'init-grammatical-edit)
+         ;; Web Mode
+         (require 'init-web-mode)
          ;; YAS
          (require 'init-yas)
          ;; EAF
