@@ -1,13 +1,7 @@
-(use-package doom-themes)
-
-(use-package ample-theme
-  :init 
-  (progn
-    (load-theme 'ample-flat t t)
-    (enable-theme 'ample-flat))
-  )
+(use-package ample-theme)
 (use-package ample-zen-theme)
 (use-package darktooth-theme)
+(use-package doom-themes)
 (use-package gotham-theme)
 (use-package jbeans-theme)
 (use-package lush-theme)

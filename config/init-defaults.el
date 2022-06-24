@@ -101,6 +101,9 @@
 (setq scroll-step 1
       scroll-conservatively 10000)
 
+;; 记住光标在文件中的位置
+(save-place-mode)
+
 ;; 不显示 *scratch*
 ;;(defun remove-scratch-buffer ()
 ;;  (if (get-buffer "*scratch*")

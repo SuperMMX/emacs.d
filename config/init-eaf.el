@@ -107,4 +107,6 @@
 (setq eaf-git-stash-initial-state "collapsed")
 (setq eaf-git-unpushed-initial-state "collapsed")
 
+(setq eaf-git-show-whole-untracked-diff nil)
+
 (provide 'init-eaf)
