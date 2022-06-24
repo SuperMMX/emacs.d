@@ -104,6 +104,9 @@
 ;; 记住光标在文件中的位置
 (save-place-mode)
 
+;; 高亮当前行
+(global-hl-line-mode)
+
 ;; 不显示 *scratch*
 ;;(defun remove-scratch-buffer ()
 ;;  (if (get-buffer "*scratch*")
