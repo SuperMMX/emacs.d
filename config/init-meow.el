@@ -1,5 +1,7 @@
 (use-package meow)
 
+(require 'mmx-funcs)
+
 (defun meow-setup ()
   (setq meow-cheatsheet-layout meow-cheatsheet-layout-qwerty)
 
@@ -31,6 +33,8 @@
    '("f f" . "C-x C-f")
    ;; save file
    '("f s" . "C-x C-s")
+   '("f D" . mmx/delete-current-buffer-file)
+   '("f R" . mmx/rename-current-buffer-file)
 
    ;; == Project
    '("p b" . counsel-projectile-switch-to-buffer)
