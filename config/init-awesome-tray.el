@@ -7,6 +7,10 @@
 (add-to-list 'awesome-tray-module-alist
              '("meow" . (awesome-tray-module-meow-info awesome-tray-module-evil-face)))
 
+;; 在 minibuffer 中不显示 awesome-tray
+(setq awesome-tray-minibuffer nil)
+;; inactive 颜色
+(setq awesome-tray-mode-line-inactive-color "Gray75")
 ;; 修改
 (setq awesome-tray-buffer-name-buffer-changed t)
 ;; 只读
