@@ -1,8 +1,9 @@
 *.elc
 *.pyc
-.emacs.desktop*
+/.emacs.desktop*
 /eaf/
 /elpa/
+/places
 /projectile-bookmarks.eld
 /snippets/
 /transient/
