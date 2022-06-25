@@ -114,6 +114,8 @@
          (require 'init-grammatical-edit)
          ;; Web Mode
          (require 'init-web-mode)
+         ;; Groovy Mode
+         (require 'init-groovy)
          ;; YAS
          (require 'init-yas)
          ;; EAF
