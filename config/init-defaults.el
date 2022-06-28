@@ -107,6 +107,10 @@
 ;; 高亮当前行
 (global-hl-line-mode)
 
+;; 高亮行后空白和所有的制表符
+(setq whitespace-style '(face trailing tabs))
+(global-whitespace-mode)
+
 ;; 不显示 *scratch*
 ;;(defun remove-scratch-buffer ()
 ;;  (if (get-buffer "*scratch*")
