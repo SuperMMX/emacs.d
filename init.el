@@ -99,7 +99,7 @@
          ;; Posframe
          (require 'init-posframe)
          ;; 上下滚动留行
-         (require 'init-smooth-scrolling)
+         ;;(require 'init-smooth-scrolling)
          ;;(require 'init-idle)
          ;; AsciiDoc
          (require 'init-asciidoc)
