@@ -17,7 +17,7 @@
 (setq awesome-tray-buffer-read-only-style "%")
 
 (setq awesome-tray-active-modules
-      '("git-branch" "buffer-read-only" "buffer-name" "belong" "location" "date"))
+      '("git" "buffer-read-only" "buffer-name" "belong" "location" "date"))
 
 (awesome-tray-mode 1)
 
