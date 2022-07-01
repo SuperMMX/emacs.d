@@ -126,6 +126,8 @@
          (require 'init-yas)
          ;; EAF
          (require 'init-eaf)
+         ;; Citre
+         (require 'init-citre)
          ;; Language Server
          (require 'init-lsp)
 

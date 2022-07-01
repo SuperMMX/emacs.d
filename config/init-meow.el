@@ -41,7 +41,13 @@
    '("p f" . counsel-projectile-find-file)
    '("p p" . counsel-projectile-switch-project)
 
-   ;; == Tools
+   ;; == Tags
+   '("t j" . citre-jump)
+   '("t J" . citre-jump-back)
+   '("t p" . citre-ace-peek)
+   '("t u" . citre-update-this-tags-file)
+
+   ;; == Misc Tools
    '(", g" . eaf-open-git)
    '(", m" . magit-status)
    '(", t" . random-theme)
