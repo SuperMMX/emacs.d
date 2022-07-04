@@ -80,10 +80,6 @@
     (run-with-idle-timer
      1 nil
      #'(lambda ()
-         ;; Restore session at last.
-         (require 'init-session)
-         (emacs-session-restore)
-
          ;; Trim trailing whitespaces
          (require 'init-ws-butler)
          ;; 自动保存
@@ -124,12 +120,16 @@
          (require 'init-groovy)
          ;; YAS
          (require 'init-yas)
+         ;; Language Server
+         (require 'init-lsp)
          ;; EAF
          (require 'init-eaf)
          ;; Citre
          (require 'init-citre)
-         ;; Language Server
-         (require 'init-lsp)
+
+         ;; Restore session at last.
+         (require 'init-session)
+         (emacs-session-restore)
 
          ;; testing
 
