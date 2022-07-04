@@ -3,7 +3,7 @@
 
 (setq
  ;; 预恢复
- desktop-restore-eager 3
+ desktop-restore-eager 5
  ;; 延迟恢复的详细信息
  desktop-lazy-verbose nil
  ;; 不用询问
@@ -37,7 +37,7 @@
   ;; Kill other windows.
   (delete-other-windows)
   ;; Kill unused buffers.
-  ;;(kill-unused-buffers)
+  (kill-unused-buffers)
   ;; 恢复
   (desktop-read user-emacs-directory)
   )
@@ -45,7 +45,7 @@
 (defun emacs-session-save ()
   "Save emacs session."
   ;; Kill unused buffers.
-  (kill-unused-buffers)
+  ;;(kill-unused-buffers)
   ;; Save all buffers before exit.
   (auto-save-buffers)
   )
