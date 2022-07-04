@@ -4,11 +4,14 @@
 ;; Java
 (require 'lsp-bridge-jdtls)
 
+(setq lsp-bridge-enable-log t)
+
 ;; 按键
 
 (one-key-create-menu
  "LSP"
  '(
+   (("a" . "Code Action") . lsp-bridge-code-action)
    (("d" . "Find Def") . lsp-bridge-find-def)
    (("i" . "Find Impl") . lsp-bridge-find-impl)
    (("b" . "Find Back") . lsp-bridge-return-from-def)
