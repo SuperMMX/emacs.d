@@ -82,6 +82,8 @@
      #'(lambda ()
          ;; Trim trailing whitespaces
          (require 'init-ws-butler)
+         ;; unfill
+         (require 'init-unfill)
          ;; 自动保存
          (require 'init-auto-save)
          ;; 缩进
