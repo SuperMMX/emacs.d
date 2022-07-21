@@ -13,7 +13,7 @@
 (use-package tangotango-theme)
 (use-package ujelly-theme)
 
-(defvar mmx-themes 
+(defvar mmx-themes
   '(
     ample-flat
     ample-zen
@@ -55,6 +55,9 @@
   (interactive)
   (load-theme (random-list-element mmx-themes) t)
 ;;  (cnfonts-set-font-with-saved-step)
+  ;; awesome-tray need to re-enabled
+  (awesome-tray-mode nil)
+  (awesome-tray-mode)
   )
 
 (random-theme)

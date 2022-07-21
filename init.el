@@ -43,15 +43,14 @@
 (require 'init-defaults)
 ;; 包管理
 (require 'init-package-management)
-;; 主题
+;;; 状态
+(require 'init-awesome-tray)
+; 主题
 (require 'init-theme)
 ;; 字体设置
 (require 'init-font)
 ;; 全屏
 (require 'init-fullscreen)
-
-;; 状态栏
-(require 'init-awesome-tray)
 
 (let (
       ;; 加载的时候临时增大`gc-cons-threshold'以加速启动速度。
