@@ -12,5 +12,12 @@
   (counsel-mode t)
   )
 
+(use-package ivy-rich
+  :config
+  (setq ivy-rich-path-style 'abbrev)
+  :init
+  (ivy-rich-mode)
+  (setcdr (assq t ivy-format-functions-alist) #'ivy-format-function-line)
+  )
 
 (provide 'init-completion)
