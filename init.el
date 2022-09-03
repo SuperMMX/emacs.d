@@ -115,6 +115,9 @@
          ;; 配对
          ;;(require 'init-awesome-pair)
          (require 'init-grammatical-edit)
+         ;; Highlight some key words
+         (require 'init-hl-todo)
+
          ;; Web Mode
          (require 'init-web-mode)
          ;; Groovy Mode
