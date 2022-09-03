@@ -117,6 +117,8 @@
          (require 'init-grammatical-edit)
          ;; Highlight some key words
          (require 'init-hl-todo)
+         ;; Popwin
+         (require 'init-popwin)
 
          ;; Web Mode
          (require 'init-web-mode)
