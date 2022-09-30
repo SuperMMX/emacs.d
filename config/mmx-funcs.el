@@ -58,4 +58,10 @@
     (end-of-line 0)
     (open-line 1)))
 
+(defun mmx/add-to-mode (mode lst)
+  "Add files to a mode"
+  (dolist (file lst)
+    (add-to-list 'auto-mode-alist
+		         (cons file mode))))
+
 (provide 'mmx-funcs)

@@ -13,6 +13,7 @@
 (require 'grammatical-edit)
 (require 'instant-rename-tag)
 (require 'highlight-matching-tag)
+(require 'mmx-funcs)
 
 (highlight-matching-tag 1)
 
@@ -32,6 +33,11 @@
  web-mode-map
  "web-mode-extension")
 
-(add-to-list 'auto-mode-alist '("\\.vue\\'" . web-mode))
+(mmx/add-to-mode
+ 'web-mode (list
+            "\\.vue$"
+            "\\.html$"
+            "\\.xml$"
+            ))
 
 (provide 'init-web-mode)
