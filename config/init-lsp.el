@@ -30,6 +30,10 @@
 
 (meow-leader-define-key '("l" . one-key-menu-lsp))
 
+;; Disable Groovy for now
+(delete '(groovy-mode . "groovy-language-server") lsp-bridge-single-lang-server-mode-list)
+(delete 'groovy-mode-hook lsp-bridge-default-mode-hooks)
+
 (global-lsp-bridge-mode)
 
 (provide 'init-lsp)
