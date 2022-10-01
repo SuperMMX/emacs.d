@@ -58,6 +58,20 @@
     (end-of-line 0)
     (open-line 1)))
 
+(defun mmx/open-two-below ()
+  "Insert two empty lines below the current line and indent"
+  (interactive)
+  (end-of-line)
+  (newline)
+  (meow-open-below))
+
+(defun mmx/open-two-above ()
+  "Insert two empty lines above the current line and indent"
+  (interactive)
+  (beginning-of-line)
+  (open-line 1)
+  (meow-open-above))
+
 (defun mmx/add-to-mode (mode lst)
   "Add files to a mode"
   (dolist (file lst)
