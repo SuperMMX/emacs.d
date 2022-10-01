@@ -1,3 +1,7 @@
+;; Enable Lombok for Java
+(setq lsp-bridge-jdtls-jvm-args
+      (list (format "%s%s%s" "-javaagent:" user-emacs-directory "files/lombok.jar")))
+
 (require 'yasnippet)
 (require 'lsp-bridge)
 
