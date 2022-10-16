@@ -132,6 +132,8 @@
          (require 'init-eaf)
          ;; Citre
          (require 'init-citre)
+         ;; Symbol Overlay
+         (require 'init-symbol-overlay)
 
          ;; Restore session at last.
          (require 'init-session)
