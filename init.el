@@ -134,6 +134,8 @@
          (require 'init-citre)
          ;; Symbol Overlay
          (require 'init-symbol-overlay)
+         ;; TeX
+         (require 'init-tex)
 
          ;; Restore session at last.
          (require 'init-session)
