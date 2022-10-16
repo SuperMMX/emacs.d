@@ -50,6 +50,7 @@
    ;; == Misc Tools
    '(", g" . eaf-open-git)
    '(", m" . magit-status)
+   '(", r" . replace-regexp)
    '(", t" . random-theme)
 
    ;; == Window

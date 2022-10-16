@@ -7,6 +7,7 @@
 (require 'package)
 
 (add-to-list 'package-archives '("melpa" . "https://melpa.org/packages/"))
+;;(add-to-list 'package-archives '("melpa" . "https://raw.githubusercontent.com/d12frosted/elpa-mirror/master/melpa/"))
 
 ;; 包的保存位置
 (setq package-user-dir (locate-user-emacs-file "elpa"))
