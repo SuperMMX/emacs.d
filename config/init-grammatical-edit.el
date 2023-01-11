@@ -64,8 +64,9 @@
         ("SPC" . grammatical-edit-space)           ;智能 space
         ("RET" . grammatical-edit-newline)         ;智能 newline
         ;; 删除
-        ("M-o" . grammatical-edit-backward-delete) ;向后删除
-        ;;("C-d" . grammatical-edit-forward-delete)  ;向前删除
+        ("DEL" . grammatical-edit-backward-delete) ;向后删除
+        ("C-h" . grammatical-edit-backward-delete)  ;向后删除
+        ("C-d" . grammatical-edit-forward-delete)  ;向前删除
         ;;("C-k" . grammatical-edit-kill)            ;向前kill
         ;; 包围
         ("M-\"" . grammatical-edit-wrap-double-quote) ;用 " " 包围对象, 或跳出字符串
