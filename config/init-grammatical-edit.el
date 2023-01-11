@@ -4,17 +4,22 @@
 (dolist (hook (list
                'c-mode-common-hook
                'c-mode-hook
+               'c-ts-mode-hook
                'c++-mode-hook
+               'c++-ts-mode-hook
                'coffee-mode-hook
                'conf-toml-mode-hook
                'css-mode-hook
+               'css-ts-mode-hook
                'emacs-lisp-mode-hook
                'go-mode-hook
                'haskell-mode-hook
                'ielm-mode-hook
                'jade-mode-hook
                'java-mode-hook
+               'java-ts-mode-hook
                'js-mode-hook
+               'js-ts-mode-hook
                'lisp-interaction-mode-hook
                'lisp-mode-hook
                'llvm-mode-hook
@@ -25,13 +30,16 @@
                'nim-mode-hook
                'php-mode-hook
                'python-mode-hook
+               'python-ts-mode-hook
                'qmake-mode-hook
                'qml-mode-hook
                'ruby-mode-hook
                'rust-mode-hook
                'sh-mode-hook
                'swift-mode-hook
+               'toml-ts-mode-hook
                'typescript-mode-hook
+               'typescript-ts-mode-hook
                'web-mode-hook
                ))
   (add-hook hook #'(lambda () (grammatical-edit-mode 1))))
