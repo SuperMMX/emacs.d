@@ -6,8 +6,15 @@
 
 (require 'package)
 
-(add-to-list 'package-archives '("melpa" . "https://melpa.org/packages/"))
-(add-to-list 'package-archives '("gnu" . "https://elpa.gnu.org/packages/"))
+(setq
+ package-archives
+ '(
+   ("melpa" . "http://melpa.org/packages/")
+   ("gnu"   . "http://elpa.gnu.org/packages/")
+   ))
+
+;;(add-to-list 'package-archives '("melpa" . "https://melpa.org/packages/"))
+;;(add-to-list 'package-archives '("gnu" . "https://elpa.gnu.org/packages/"))
 ;;(add-to-list 'package-archives '("melpa" . "https://raw.githubusercontent.com/d12frosted/elpa-mirror/master/melpa/"))
 
 ;; 包的保存位置
@@ -21,9 +28,11 @@
 ;;(unless (package-installed-p 'use-package)
 ;;  (package-refresh-contents)
 ;;  (package-install 'use-package))
-(eval-and-compile
-  (setq use-package-always-ensure t
-        use-package-expand-minimally t))
+
+;; Not checking package repositories
+;;(eval-and-compile
+;;  (setq use-package-always-ensure t
+;;        use-package-expand-minimally t))
 
 ;; ==== Straight ====
 
