@@ -1,9 +1,12 @@
 *.elc
 *.pyc
 /.emacs.desktop*
+/auto-save-list/
 /eaf/
 /elpa/
 /places
 /projectile-bookmarks.eld
+/projectile.cache
 /snippets/
 /transient/
+/tree-sitter/
