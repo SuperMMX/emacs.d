@@ -136,6 +136,8 @@
          (require 'init-symbol-overlay)
          ;; TeX
          (require 'init-tex)
+         ;; Spelling check
+         (require 'init-spelling)
 
          ;; Restore session at last.
          (require 'init-session)

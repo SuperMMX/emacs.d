@@ -51,6 +51,7 @@
    '(", g" . eaf-open-git)
    '(", m" . magit-status)
    '(", r" . replace-regexp)
+   '(", s" . flyspell-correct-wrapper)
    '(", t" . random-theme)
 
    ;; == Window

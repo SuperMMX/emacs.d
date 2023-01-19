@@ -20,4 +20,13 @@
   (setcdr (assq t ivy-format-functions-alist) #'ivy-format-function-line)
   )
 
+;; (use-package ivy-posframe
+;;   :config
+;;   (setq
+;;    ivy-posframe-display-functions-alist '((t . ivy-posframe-display))
+;;    )
+;;   :init
+;;   (ivy-posframe-mode 1)
+;;   )
+
 (provide 'init-completion)

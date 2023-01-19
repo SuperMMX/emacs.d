@@ -24,6 +24,18 @@
 
 (package-initialize)
 
+(setq package-list
+      '(
+        flyspell-correct
+        ;;ivy-posframe
+        wucuo
+        ))
+
+;; install the missing packages
+(dolist (package package-list)
+  (unless (package-installed-p package)
+    (package-install package)))
+
 ;; 不刷新
 ;;(unless (package-installed-p 'use-package)
 ;;  (package-refresh-contents)
