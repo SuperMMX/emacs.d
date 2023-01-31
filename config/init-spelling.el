@@ -3,6 +3,7 @@
   :init
   (add-hook 'prog-mode-hook #'wucuo-start)
   (add-hook 'text-mode-hook #'wucuo-start)
+  (add-hook 'adoc-mode-hook #'wucuo-start)
   )
 
 (setq
