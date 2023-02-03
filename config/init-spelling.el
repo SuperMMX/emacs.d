@@ -1,5 +1,4 @@
 (use-package wucuo
-  :ensure-t
   :init
   (add-hook 'prog-mode-hook #'wucuo-start)
   (add-hook 'text-mode-hook #'wucuo-start)

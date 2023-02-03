@@ -10,6 +10,7 @@
  package-archives
  '(
    ("melpa" . "http://melpa.org/packages/")
+   ("nongnu"   . "http://elpa.nongnu.org/nongnu/")
    ("gnu"   . "http://elpa.gnu.org/packages/")
    ))
 
@@ -20,21 +21,36 @@
 ;; 包的保存位置
 (setq package-user-dir (locate-user-emacs-file "elpa"))
 
-(require 'use-package)
-
 (package-initialize)
 
-(setq package-list
-      '(
-        flyspell-correct
-        ;;ivy-posframe
-        wucuo
-        ))
+;;防止反复调用 package-refresh-contents 会影响加载速度
+(when (not package-archive-contents)
+  (package-refresh-contents))
 
-;; install the missing packages
-(dolist (package package-list)
-  (unless (package-installed-p package)
-    (package-install package)))
+;; 如果 use-package 没安装
+(unless (package-installed-p 'use-package)
+  ;; 更新本地缓存
+  (package-refresh-contents)
+  ;; 之后安装它。use-package 应该是你配置中唯一一个需要这样安装的包。
+  (package-install 'use-package))
+
+(require 'use-package)
+;; 让 use-package 自动安装系统没有的 package
+(setq use-package-always-ensure t)
+
+;; (setq package-list
+;;       '(
+;;         flyspell-correct
+;;         flyspell-correct-ivy
+;;         ;;ivy-posframe
+;;         subed
+;;         wucuo
+;;         ))
+
+;; ;; install the missing packages
+;; (dolist (package package-list)
+;;   (unless (package-installed-p package)
+;;     (package-install package)))
 
 ;; 不刷新
 ;;(unless (package-installed-p 'use-package)

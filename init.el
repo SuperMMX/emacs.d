@@ -139,6 +139,11 @@
          ;; Spelling check
          (require 'init-spelling)
 
+         ;; Other utilities
+
+         ;; Subtitle
+         (require 'init-subed)
+
          ;; Restore session at last.
          (require 'init-session)
          (emacs-session-restore)
