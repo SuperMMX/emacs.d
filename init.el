@@ -107,7 +107,7 @@
          ;; TypeScript
          (require 'init-typescript)
          ;; Magit
-         ;;(require 'init-magit)
+         (require 'init-magit)
          ;; Tree Sitter
          (require 'init-tree-sitter)
          ;; 括号高亮
