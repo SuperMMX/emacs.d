@@ -1,4 +1,10 @@
 ;; Emacs builtin Tree Sitter
+(use-package treesit-auto
+  :demand t
+  :config
+  (setq treesit-auto-install 'prompt)
+  (global-treesit-auto-mode))
+
 ;; (use-package treesit
 ;;   :when (and (fboundp 'treesit-available-p)
 ;;              (treesit-available-p))
@@ -14,15 +20,16 @@
 ;;              (js-json-mode    . json-ts-mode)
 ;;              (python-mode     . python-ts-mode)
 ;;              (sh-mode         . bash-ts-mode)
-;;              (typescript-mode . typescript-ts-mode))))
+;;              (typescript-mode . typescript-ts-mode)
+;;              )))
 
-;; (setq-local treesit-font-lock-level 4)
-;; (treesit-font-lock-recompute-features '(command string variable function operator bracket keyword))
+(setq-local treesit-font-lock-level 4)
+(treesit-font-lock-recompute-features '(command string variable function operator bracket keyword))
 
-(use-package tree-sitter)
-(use-package tree-sitter-langs)
+;; (use-package tree-sitter)
+;; (use-package tree-sitter-langs)
 
-(global-tree-sitter-mode)
-(add-hook 'tree-sitter-after-on-hook #'tree-sitter-hl-mode)
+;; (global-tree-sitter-mode)
+;; (add-hook 'tree-sitter-after-on-hook #'tree-sitter-hl-mode)
 
 (provide 'init-tree-sitter)

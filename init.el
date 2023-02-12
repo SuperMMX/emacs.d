@@ -113,8 +113,7 @@
          ;; 括号高亮
          (require 'init-highlight-parentheses)
          ;; 配对
-         ;;(require 'init-awesome-pair)
-         (require 'init-grammatical-edit)
+         (require 'init-fingertip)
          ;; Highlight some key words
          (require 'init-hl-todo)
          ;; Popwin
