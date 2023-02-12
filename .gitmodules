@@ -98,3 +98,6 @@
 [submodule "packages/instant-rename-tag"]
 	path = packages/instant-rename-tag
 	url = https://github.com/manateelazycat/instant-rename-tag.git
+[submodule "packages/fingertip"]
+	path = packages/fingertip
+	url = https://github.com/manateelazycat/fingertip.git
