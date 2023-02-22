@@ -66,7 +66,7 @@
         ;; 删除
         ("DEL" . fingertip-backward-delete) ;向后删除
         ;;("C-h" . fingertip-backward-delete)  ;向后删除
-        ("C-d" . fingertip-forward-delete)  ;向前删除
+        ;;("C-d" . fingertip-forward-delete)  ;向前删除
         ;;("C-k" . fingertip-kill)            ;向前kill
         ;; 包围
         ("M-\"" . fingertip-wrap-double-quote) ;用 " " 包围对象, 或跳出字符串
