@@ -32,5 +32,6 @@
 ;; (add-hook 'tree-sitter-after-on-hook #'tree-sitter-hl-mode)
 
 (add-hook 'emacs-lisp-mode-hook #'(lambda () (treesit-parser-create 'elisp)))
+(add-hook 'java-mode-hook #'(lambda () (treesit-parser-create 'java)))
 
 (provide 'init-tree-sitter)
