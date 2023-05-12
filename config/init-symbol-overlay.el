@@ -5,6 +5,6 @@
 
 (add-hook 'prog-mode-hook #'symbol-overlay-mode)
 
-(meow-leader-define-key (cons "s" symbol-overlay-map))
+(meow-leader-define-key (cons "o" symbol-overlay-map))
 
 (provide 'init-symbol-overlay)
