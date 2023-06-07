@@ -22,7 +22,7 @@
 
 
 (defun set-font (FONT-NAME CN-FONT-NAME EXTB-FONT-NAME &optional INITIAL-SIZE CN-FONT-RESCALE-RATIO EXTB-FONT-RESCALE-RATIO)
-  "Set different font-family for Latin and Chinese charactors."
+  "Set different font-family for Latin and Chinese characters."
   (let* ((size (or INITIAL-SIZE 14))
 	       (ratio (or CN-FONT-RESCALE-RATIO 0.0))
 	       (extb-ratio (or EXTB-FONT-RESCALE-RATIO CN-FONT-RESCALE-RATIO))
@@ -38,6 +38,6 @@
             (,EXTB-FONT-NAME . ,extb-ratio)))
     ))
 
-(set-font "Hack" "H-MingLan" "中华书局宋体02平面" 16 1.25 1.25)
+(set-font "Hack" "H-明蘭" "中华书局宋体02平面" 16 1.25 1.25)
 
 (provide 'init-font)
