@@ -5,7 +5,8 @@
   ;; 2 mean auto-close with > and </.
   (setq web-mode-tag-auto-close-style 2)
   (setq web-mode-markup-indent-offset 2)
-  )
+  (setq web-mode-enable-auto-indentation nil)
+)
 
 (use-package js)
 
@@ -17,7 +18,7 @@
 
 (highlight-matching-tag 1)
 
-;; Emmit.
+;; TODO: Emmit.
 
 ;; Web-mode.
 (lazy-load-set-keys fingertip-key-alist web-mode-map)
