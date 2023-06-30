@@ -51,7 +51,8 @@
         ("M-n" . fingertip-jump-left)
         ("M-p" . fingertip-jump-right)
         ;; 符号插入
-        ("%" . fingertip-match-paren)       ;括号跳转
+        ;;("%" . fingertip-match-paren)       ;括号跳转
+        ("M-}" . fingertip-match-paren)       ;括号跳转
         ("(" . fingertip-open-round)        ;智能 (
         ("[" . fingertip-open-bracket)      ;智能 [
         ("{" . fingertip-open-curly)        ;智能 {
@@ -61,8 +62,8 @@
         ("\"" . fingertip-double-quote)     ;智能 "
         ("'" . fingertip-single-quote)      ;智能 '
         ("=" . fingertip-equal)             ;智能 =
-        ("SPC" . fingertip-space)           ;智能 space
-        ("RET" . fingertip-newline)         ;智能 newline
+        ;;("SPC" . fingertip-space)           ;智能 space
+        ;;("RET" . fingertip-newline)         ;智能 newline
         ;; 删除
         ("DEL" . fingertip-backward-delete) ;向后删除
         ;;("C-h" . fingertip-backward-delete)  ;向后删除
