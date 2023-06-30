@@ -39,6 +39,9 @@
 ;; Word移动支持 FooBar 的格式
 (global-subword-mode 1)
 
+;; disable electric-indent-mode
+;;(electric-indent-mode nil)
+
 ;; never pop dialog
 (setq use-dialog-box nil)
 
