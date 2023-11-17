@@ -131,4 +131,11 @@
       (remq 'process-kill-buffer-query-function
             kill-buffer-query-functions))
 
+;; improve performance for long lines
+(setq-default bidi-display-reordering nil) 
+(setq bidi-inhibit-bpa t
+      long-line-threshold 1000
+      large-hscroll-threshold 1000
+      syntax-wholeline-max 1000)
+
 (provide 'init-defaults)
