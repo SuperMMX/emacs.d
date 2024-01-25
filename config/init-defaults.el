@@ -42,6 +42,9 @@
 ;; disable electric-indent-mode
 ;;(electric-indent-mode nil)
 
+;; add new line and indent properly for {}
+(electric-pair-mode 1)
+
 ;; never pop dialog
 (setq use-dialog-box nil)
 
