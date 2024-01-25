@@ -158,7 +158,16 @@
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  '(package-selected-packages
-   '(tree-sitter-langs tree-sitter ivy-rich lush-theme yasnippet groovy-mode obsidian-theme popwin web-mode gotham-theme planet-theme ujelly-theme ample-zen-theme doom-themes darktooth-theme jbeans-theme adoc-mode smooth-scrolling mustang-theme counsel-projectile citre unfill soft-charcoal-theme hl-todo key-chord solarized-theme ample-theme tangotango-theme magit meow ws-butler markdown-mode posframe)))
+   '(subed flyspell-correct-ivy flyspell-correct wucuo auctex
+           symbol-overlay typescript-mode projectile pinyinlib counsel
+           tree-sitter-langs tree-sitter ivy-rich lush-theme yasnippet
+           groovy-mode obsidian-theme popwin web-mode gotham-theme
+           planet-theme ujelly-theme ample-zen-theme doom-themes
+           darktooth-theme jbeans-theme adoc-mode smooth-scrolling
+           mustang-theme counsel-projectile citre unfill
+           soft-charcoal-theme hl-todo key-chord solarized-theme
+           ample-theme tangotango-theme magit meow ws-butler
+           markdown-mode posframe)))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
