@@ -1,6 +1,7 @@
 ;;; Require
 (require 'eaf)
-(require 'eaf-browser)
+;;(require 'eaf-browser)
+
 ;;(require 'eaf-pdf-viewer)
 ;;(require 'eaf-markdown-previewer)
 ;;(require 'eaf-video-player)
@@ -19,7 +20,7 @@
 ;;(require 'eaf-demo)
 ;;(require 'eaf-vue-demo)
 ;;(require 'eaf-rss-reader)
-(require 'eaf-git)
+;;(require 'eaf-git)
 ;;(require 'popweb-dict-bing)
 ;;(require 'popweb-dict-youdao)
 
