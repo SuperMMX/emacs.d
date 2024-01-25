@@ -15,6 +15,8 @@
 (setq awesome-tray-buffer-name-buffer-changed t)
 ;; 只读
 (setq awesome-tray-buffer-read-only-style "%")
+;; date time format
+(setq awesome-tray-date-format "")
 
 (setq awesome-tray-active-modules
       '("git" "buffer-read-only" "buffer-name" "belong" "location" "date"))
